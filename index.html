@@ -13,6 +13,7 @@
       justify-content: center;
       font-family: Arial, sans-serif;
       text-align: center;
+      position: relative;
     }
     .container {
       display: flex;
@@ -21,11 +22,25 @@
     }
     .title {
       font-size: 12em;
+      margin: 0;
     }
     .subtext {
       margin-top: 10px;
       color: lightgray;
       font-size: 1em;
+    }
+    .contact {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      font-size: 0.8em;
+      color: #333;
+    }
+    .contact a {
+      text-decoration: none;
+      color: #333;
+      border-bottom: 1px dotted #333;
     }
   </style>
 </head>
@@ -33,6 +48,9 @@
   <div class="container">
     <div class="title">µ-missile</div>
     <div class="subtext">coming soon</div>
+    <div class="contact">
+      Want to know more? <a href="mailto:info@micro-missile.xyz ">Send us an email</a>
+    </div>
   </div>
 </body>
 </html>
